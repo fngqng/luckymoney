@@ -1,0 +1,10 @@
+server:
+    servlet:
+        context-path: /lucky
+    port: 8080
+
+limit:
+    minMoney: 1
+    maxMoney: 100
+    description: 最小${limit.minMoney}元,不超过${limit.maxMoney}元
+
