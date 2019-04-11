@@ -9,3 +9,13 @@ limit:
     description: 最小${limit.minMoney}元,不超过${limit.maxMoney}元
 
 
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306?lucky
+        username: root
+        password: colorful
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
