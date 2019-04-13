@@ -16,6 +16,16 @@ public class Member {
     private String name;
     @OneToOne(fetch =FetchType.LAZY ,mappedBy = "member")
     private Account account;
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     public Long getId() {
         return id;
     }
